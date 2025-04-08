@@ -3,6 +3,7 @@ body {
     overflow: hidden;
     line-height: 5px;
     gap: 5px;
+    color: white;
 }
 
 .alfa {
@@ -28,5 +29,15 @@ button {
 }
 
 button:hover {
+    background-color: rgb(98, 98, 98);
+}
+
+#display {
+    margin-top: -20%;
+    position: absolute;
+    font-size: 30px;
+}
+
+.pressed {
     background-color: rgb(98, 98, 98);
 }

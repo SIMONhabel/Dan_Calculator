@@ -4,4 +4,4 @@ Tlačítka: M+ (přidání do paměti), MR (načtení z paměti), MC (vymazání
 Tmavý a světlý režim 
 Uživatel může přepínat mezi světlým a tmavým režimem.
 Zvolený režim se uloží do LocalStorage.
-esc - vyresetuje zadání
+esc - vyresetuje zadání✅

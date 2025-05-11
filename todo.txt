@@ -1,7 +1,0 @@
-Paměťové funkce 
-Umožňuje uložit číslo do paměti, načíst ho zpět a vymazat ho.
-Tlačítka: M+ (přidání do paměti), MR (načtení z paměti), MC (vymazání paměti).
-Tmavý a světlý režim ✅
-Uživatel může přepínat mezi světlým a tmavým režimem.✅
-Zvolený režim se uloží do LocalStorage.
-esc - vyresetuje zadání✅

@@ -19,7 +19,6 @@
         <div class="theme-switch__container">
         <div class="theme-switch__clouds"></div>
         <div class="theme-switch__stars-container">
-            <!-- SVG... -->
         </div>
         <div class="theme-switch__circle-container">
             <div class="theme-switch__sun-moon-container">
@@ -32,38 +31,48 @@
         </div>
         </div>
     </label>
-
-    <!-- Kalkulačka -->
     <div id="calculator">
+        <div class="row0">
+        <button class="orange" onclick="memorySubstract()">M-</button>
+        <button class="orange" onclick="memoryAdd()">M+</button>
+        <button class="orange" onclick="memoryRecall()">MR</button>
+        <button class="orange" onclick="memoryClear()">MC</button>
+        <button class="orange" onclick="alt()">F4</button>
+        </div>
         <div class="row1">
+        <button class="orange" data-key="(" onclick="Open()">(</button>
         <button data-key="7" onclick="appendNumber('7')">7</button>
         <button data-key="8" onclick="appendNumber('8')">8</button>
         <button data-key="9" onclick="appendNumber('9')">9</button>
         <button class="orange" data-key="/" onclick="appendOperator('/')">/</button>
         </div>
         <div class="row2">
+        <button class="orange" data-key=")" onclick="Close()">)</button>
         <button data-key="4" onclick="appendNumber('4')">4</button>
         <button data-key="5" onclick="appendNumber('5')">5</button>
         <button data-key="6" onclick="appendNumber('6')">6</button>
         <button class="orange" data-key="*" onclick="appendOperator('*')">*</button>
         </div>
         <div class="row3">
+        <button class="orange" onclick="log()">log</button>
         <button data-key="1" onclick="appendNumber('1')">1</button>
         <button data-key="2" onclick="appendNumber('2')">2</button>
         <button data-key="3" onclick="appendNumber('3')">3</button>
         <button class="orange" data-key="-" onclick="appendOperator('-')">-</button>
         </div>
         <div class="row4">
+        <button class="orange" onclick="sin()">sin</button>
         <button data-key="0" onclick="appendNumber('0')">0</button>
         <button class="equal" data-key="Enter" onclick="calculate()">=</button>
         <button data-key="." onclick="appendNumber('.')">.</button>
         <button class="orange" data-key="+" onclick="appendOperator('+')">+</button>
         </div>
         <div class="row5">
+        <button class="orange" onclick="cos()">cos</button>
         <button class="clear orange" data-key="c" onclick="clearDisplay()">C</button>
         <button class="Sqare orange" data-key="^" onclick="appendPower()">^</button>
         <button class="SqareRoot orange" data-key="//" onclick="appendRoot()"><sup style="font-size: 12px; vertical-align: super;">x</sup>√a</button>
-        <button class="orange" data-key=")" onclick="Close()">)</button>
+        <button class="orange" data-key="pi" onclick="Pi()">π</button>
         </div>
     </div>
     </div>

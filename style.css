@@ -34,7 +34,7 @@
   
   #display {
     position: absolute;
-    top: 28%;
+    top: 26%;
     font-size: 30px;
     font-family: sans-serif;
   }
@@ -71,7 +71,7 @@
     /* Tlačítko pro přepínání tématu */
   /* From Uiverse.io by Galahhad */ 
   .theme-switch {
-      --toggle-size: 20px;
+      --toggle-size: 100%;
       /* the size is adjusted using font-size,
         this is not transform scale,
          so you can choose any size */
@@ -276,3 +276,40 @@
       -ms-transform: translateY(-50%);
       transform: translateY(-50%)
   }
+
+  @media only screen and (max-device-width: 1440px) {
+      #display {
+        top: 25%;
+      }
+  }
+
+  @media only screen and (max-device-width: 1024px) {
+      #display {
+        top: 33%;
+      }
+  }
+
+  @media only screen and (max-device-width: 820px) {
+    .theme-switch{
+      left: 84%;
+    }
+  }
+
+  @media only screen and (max-device-width: 768px) {
+    .theme-switch {
+        left: 87%;
+        top: 4%;
+    }
+
+    #display {
+      top: 27%;
+    }
+  }
+
+    @media only screen and (max-device-width: 375px) {
+      #display {
+        top: 18%;
+      }
+  }
+
+
